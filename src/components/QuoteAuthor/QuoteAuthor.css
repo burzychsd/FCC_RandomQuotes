@@ -1,0 +1,23 @@
+.QuoteAuthor {
+	margin-top: 0.5em;
+	font-family: 'Shadows Into Light', cursive;
+    font-size: 1em;
+    line-height: 1.7em;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    color: #555B6E;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 60em) {
+	.QuoteAuthor {
+		font-size: calc(1em + 0.8 * ((100vw - 20rem) / 60));;
+	}
+}
+
+@media screen and (min-width: 60em) {
+	.QuoteAuthor {
+		font-size: 1.5em;
+	}
+}

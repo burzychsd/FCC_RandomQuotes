@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+  	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: sans-serif;
+	background: #555B6E;
+}
+
+#root {
+	height: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-height: 320px) {
+	#root {
+		height: auto;
+		padding: 1em;
+	}
+
+	html, body {
+		overflow: scroll;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+}
+
