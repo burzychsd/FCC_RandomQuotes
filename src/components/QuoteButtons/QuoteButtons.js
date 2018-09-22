@@ -20,7 +20,7 @@ const QuoteButtons = (props) => {
     return (
         <div style={{ position: 'absolute', bottom: '0', left: '2em', display: 'flex', justifyContent: 'flex-start'}}>
 			<ActionBtn style={{ marginRight: '0.5em', padding: '0.5em' }}>
-				<a id="tweet-quote" href="twitter.com/intent/tweet"><img src={tweetBtn} alt="twitter"/></a>
+				<a id="tweet-quote" href="https://twitter.com/intent/tweet"><img src={tweetBtn} alt="twitter"/></a>
 			</ActionBtn>
 			<ActionBtn onClick={props.clicked} id="new-quote" style={{ marginLeft: '0.5em', padding: '1em' }}>
 				<img src={nextBtn} alt="next"/>
